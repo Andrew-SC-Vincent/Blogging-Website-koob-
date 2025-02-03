@@ -1,0 +1,49 @@
+.search-header{
+    padding-top: 15px;
+    display: block;
+    font-weight: 500;
+    color: rgb(253,108,35);
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.profile-bubble {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+    color: inherit;
+    margin-top: 20px;
+    width: 650px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(142, 142, 142);
+}
+
+.profile-bubble:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+#no-profile-p{
+    margin: 20px;
+    color: rgb(160, 160, 160);
+    text-align: center;
+}
+
+#search-user-pro {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%; /* Ensure the image has rounded corners */
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+.profile-info {
+    flex-grow: 1; /* Allow the text content to expand and fill the available space */
+}
+
+#profile-username {
+    font-size: 30px;
+    font-weight: 450;
+}

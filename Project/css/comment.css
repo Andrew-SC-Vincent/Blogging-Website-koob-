@@ -1,0 +1,134 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-text{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    min-height: 50px;
+    font-size: large;
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+
+.comment-section{
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 690px;
+    min-height: 100px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 3px rgb(142, 142, 142); */
+}
+
+.comment-container{
+    display: flex;
+    min-height: 80px;
+    justify-content: space-around;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Style button img */
+.submit {
+    color: rgb(192, 192, 192);
+    transition: 0.3s;
+    padding-right: 20px;
+    margin: auto;
+    cursor: pointer;
+    font-variation-settings:
+    'opsz' 50
+}
+
+.submit:hover{
+    color: rgb(253,108,35);
+}
+
+input#submit-button {
+    display: none;
+}
+
+#comment-form{
+    width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247); 
+}
+
+#comment-user-pro{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.comment-info{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.comment-content{
+    width: 400px;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+.comment-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+
+/* Comment edit form */
+.comment-form{
+    display: none;
+}
+
+#comment-submit{
+    background-color: rgb(253,108,35);
+    color: white;
+    width: fit-content;
+    min-width: 80px;
+    padding: 7px;
+    
+}
+
+#comment-submit:hover{
+    background-color: rgb(233, 100, 33);
+}
+
+
+#comment-cancel{
+    background-color: rgb(253,108,35);
+    color: white;
+    min-width: 80px;
+    padding: 7px;
+}
+
+#comment-cancel:hover{
+    background-color: rgb(233, 100, 33);
+}
+
+#cancel-form{
+    width: 0;
+}
+
+#btn-container{
+    display: flex;
+    margin-right: 20px;
+}

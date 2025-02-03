@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+   height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+.post-container{
+    margin: auto;
+    padding: 15px;
+    margin-top: 50px;
+    width: 700px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px rgb(142, 142, 142);
+}
+/* post style */
+.post-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    border-top: 1px solid black;
+}
+
+.post-name{
+    font-size: larger;
+    
+}
+
+.post-time{
+    font-size: 15px;
+}
+
+.post-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.post-comments{
+    font-size: 15px;
+    color: rgba(153, 153, 153, 0.842);
+    text-decoration: none;
+}
+
+
+
+
+.post-comments:hover{
+    color: rgba(201, 201, 201, 0.819);
+}
+
+img#post-user-pro{
+    margin-left: 0px;
+}
+
+#cancel{   
+    background-color: rgb(215, 215, 215);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-style: none;
+    transition-duration: 0.3s;
+}
+
+#cancel:hover{
+    background-color: rgb(253,108,35);
+}
+
+.post-controls{
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.post-extra{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.post-form{
+    display: none;
+}
+
+.edit-btn{
+    color: rgb(160, 160, 160);
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 15px;
+    transition-duration: 0.3s;
+}
+
+.edit-btn:hover{
+    color: rgb(253,108,35);
+}
+#img-link{
+   display: block;
+   width: 0;
+}
+
+/* edit post style */
+
+#edit-post-content{
+    width: 100%;
+    font-size: large;
+    border-style: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+#edit-btn-container{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#edit-container{
+    display: none;
+}
+
+#edit-container.open{
+    display: block;
+}
+
+#edit-btn.open{
+    display: none
+}
+
+#edit-display.open{
+    display: none;
+}
+
+.home-button{
+    background: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 10px;
+	color: black;
+	border: none;
+    font-family: inherit;
+    font-size: 15px;
+    min-width: 110px;
+    text-align: center;
+	font-weight: 400;
+	cursor: pointer;
+	outline: inherit;
+    transition-duration: 0.3s;
+}
+#edit-button{
+    background-color: rgb(253,108,35);
+    color: white;
+}
+#edit-button:hover{
+    background-color: rgb(233, 100, 33);
+}
+
+
+/* Toggles */
+
+#content.open{
+    display: none;
+}
+
